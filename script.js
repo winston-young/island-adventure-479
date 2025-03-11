@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlide(currentIndex);
     setInterval(nextSlide, 2000);
 
-    // Expandable Box Debugging
     let expandBtn = document.querySelector(".expand-btn");
     let expandableContent = document.querySelector(".expandable-content");
     if (!expandBtn || !expandableContent) {
