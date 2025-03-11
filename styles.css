@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6ec;
+    color: #333;
+}
+
+.navbar {
+    background: linear-gradient(to right, #0077b6, #d2ecf5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.welcome {
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    padding: 15px;
+    background-color: #ffdd67;
+    color: #663300;
+}
+
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.box {
+    background-color: #ffcc80;
+    padding: 40px;
+    margin: 10px;
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border: 3px solid #333;
+}
+
+.slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+.news {
+    flex: 1;
+    background-color: #ffcc80;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #333;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section-box {
+    flex: 1;
+    background-color: #ffb703;
+    color: #5f3c00;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff6700, #ff9800);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+}
+
+.footer a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.spotlights {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.spotlight-box {
+    flex: 1;
+    background-color: #0096c7;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.expandable-box {
+    flex: 1;
+    background-color: #ffdd67;
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+}
+
+.map-box {
+    flex: 1;
+    background-color: #ffb703;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+}
+
+#mapimage {
+    width: 80%;
+}
+
+
+.expandable-box {
+    flex: 1;
+    background-color: #ffdd67;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expandable-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff3c0;
+    border: 2px solid #333;
+    width: 90%;
+    text-align: left;
+}
+
+.expand-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.expand-btn:hover {
+    background-color: #e68900;
+}
+
+.activityslideshow{
+    width: 50%;
+    height: 30%;
+}
+
+#activitymap{
+    width: 30%;
+    height: 30%;
+}
+
+.historyphoto{
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+#weatherforecast{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.navbarlink{
+    padding: 30px;
+    color: white;
+}
+
+.currentpage{
+    border: solid;
+    border-color: #e68900;
+    border-width: 5px;
+    padding: 2px;
+}
+
+.weatherbox {
+    background-color: #ffb703;
+}
